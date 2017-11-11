@@ -1,7 +1,15 @@
-"Gamemode"
+"noxrp"
 {
 	"base"		"base"
 	"title"		"NoXRP"
-	"maps"				"^noxrp_"
+	"maps"				"^noxrp_|^rp_"
 	"menusystem"	"1"
+	
+	"author_name"		"William 'JetBoom' Moodhe"
+	"author_email"		"williammoodhe@gmail.com"
+	"author_url"		"http://www.noxiousnet.com/"
+
+	"settings"
+	{
+	}
 }
