@@ -1,0 +1,1 @@
+local RECIPE = {}RECIPE.Name = "deploy_turret"RECIPE.Display = "Deployable Turret"RECIPE.RequiredEntity = "item_crafting_electronics"RECIPE.Category = CRAFTING_ELECTRONICSRECIPE.Requirements = {{"metal_combium", 10},{"metal_iron", 25}}RECIPE.FinishedItems = {{"turret", 1}}if CLIENT then	RECIPE.SortBy = RECIPEES_SORTBY_DEPLOYABLEendRegisterRecipe(RECIPE)

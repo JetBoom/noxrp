@@ -1,0 +1,1 @@
+local RECIPE = {}RECIPE.Name = "Combium"RECIPE.RequiredEntity = "item_crafting_engineering"RECIPE.Category = CRAFTING_REFINEMENTRECIPE.Requirements = {	{"metal_iron", 5},	{"metal_mithril", 2}}RECIPE.FinishedItems = {	{"metal_combium", 1}}if CLIENT then	RECIPE.SortBy = RECIPEES_SORTBY_METALREFINEendRegisterRecipe(RECIPE)

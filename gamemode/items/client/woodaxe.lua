@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "woodaxe"ITEM.Description = "An axe to chop wood."RegisterItem(ITEM)

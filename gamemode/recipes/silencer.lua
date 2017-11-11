@@ -1,0 +1,1 @@
+local RECIPE = {}RECIPE.Name = "silencer"RECIPE.Display = "Silencer"RECIPE.RequiredEntity = "item_crafting_gunsmithing"RECIPE.Category = CRAFTING_GUNSMITHINGRECIPE.Requirements = {{"metal_iron", 10}}RECIPE.FinishedItems = {{"silencer", 1}}if CLIENT then	RECIPE.SortBy = RECIPEES_SORTBY_WEAPONCOMPONENTSendRegisterRecipe(RECIPE)

@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "throwingknife"ITEM.Model = "models/weapons/w_knife_t.mdl"ITEM.Name = "Throwing Knife"ITEM.ItemWeight = 0.5ITEM.Weapon = "weapon_throwable_knife"ITEM.Base = "_base"ITEM.Category = "weapons"RegisterItem(ITEM)

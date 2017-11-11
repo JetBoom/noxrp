@@ -1,0 +1,7 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"NoXRP"
+	"maps"				"^noxrp_"
+	"menusystem"	"1"
+}

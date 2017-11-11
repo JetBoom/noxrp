@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "smithhammer"RegisterItem(ITEM)

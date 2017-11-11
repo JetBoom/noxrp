@@ -1,0 +1,1 @@
+local RECIPE = {}RECIPE.Name = "expgrenade"RECIPE.Display = "Explosive Grenade"RECIPE.RequiredEntity = "item_crafting_engineering"RECIPE.Category = CRAFTING_ENGINEERINGRECIPE.Requirements = {	{"redgoop", 5},	{"metal_iron", 5}}RECIPE.FinishedItems = {	{"explosivegrenade", 1}}if CLIENT then	RECIPE.SortBy = RECIPEES_SORTBY_WEAPONSendRegisterRecipe(RECIPE)

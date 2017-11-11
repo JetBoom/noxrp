@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "crowbar"ITEM.Draw3DName = true	ITEM.Description = "A crowbar for gathering materials."	ITEM.InventoryCameraPos = Vector(0, 0, 20)ITEM.ExamineCameraPos = Vector(0, 40, 0)	ITEM.EquipmentViewAng = Angle(90, 0, 0)RegisterItem(ITEM)

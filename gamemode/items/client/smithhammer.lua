@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "smithhammer"ITEM.Draw3DName = true	ITEM.Description = "A smither's hammer."RegisterItem(ITEM)

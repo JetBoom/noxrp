@@ -1,0 +1,1 @@
+local WRECIPE = {}WRECIPE.RequiredEnt = "item_teakettle"--Tealeaves: 5 units is 1 itemWRECIPE.RequiredReagents = {	["water_boiling"] = 2, 	["tealeaves"] = 1}WRECIPE.RequiredEntity = "item_teakettle"function WRECIPE:BuildRecipe(entity, scale)	local item = Item("tea")		item:SetAmount(2 * scale)			entity.Data:AddItem(item)endRegisterChemistryRecipe(WRECIPE)

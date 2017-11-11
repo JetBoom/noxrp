@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "crowbar"RegisterItem(ITEM)

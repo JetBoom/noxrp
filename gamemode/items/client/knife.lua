@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "knife"ITEM.Description = "A small knife, but still dangerous."ITEM.CameraPos = Vector(0, 12, 5)ITEM.LookAt = Vector(0, 0, 5)RegisterItem(ITEM)

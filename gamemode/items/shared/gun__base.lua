@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "gun__base"ITEM.ItemWeight = 1ITEM.Usable = trueITEM.DestroyOnUse = trueITEM.IsBase = trueITEM.MaxEChips = 2ITEM.Category = ITEM_CAT_WEAPONSITEM.Durability = truefunction ITEM:GetWeaponStats()	if not self.WeaponStats then		self.WeaponStats = {}	end		return self.WeaponStatsendRegisterItem(ITEM)

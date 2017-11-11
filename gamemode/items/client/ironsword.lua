@@ -1,0 +1,1 @@
+local ITEM = {}ITEM.DataName = "ironsword"ITEM.Description = "A sharpened iron sword."ITEM.CameraPos = Vector(0, 15, 5)RegisterItem(ITEM)
